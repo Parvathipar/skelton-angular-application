@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    &__head-bar{
+        background-image: url("../assets/images/cafeee.avif");
+        height: 400px;
+        width: 100%;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        img{
+            width: 100%;
+            height: 400px;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            margin-left: 850px;
+        }
+        li{
+            padding-right: 50px;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+           
+        }
+    }
+    &__main-content{
+        h1{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            color: #ace600 ;
+            margin-bottom: 30px;
+        }
+        &__buttons{
+            display: flex;
+            margin-left: 450px;
+            .box:hover{
+                background-color: white;
+                color: black;
+            }
+            .box{
+                width: 50px;
+                height: 20px;
+                padding: 10px;
+                border: 1px solid green;
+                background-color: green;
+                color: white;
+                margin-right: 10px;
+               text-align: center;
+            }
+        }
+        &__images{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            .image-1{
+                margin-top: 30px;
+                img{
+                    width: 250px;
+                    height: 200px;
+                }
+                .card:hover{
+                    background-color: lightyellow;
+                }
+                .card{
+                    width: 250px;
+                    height: 140px;
+                    background-color: #ffebcc;
+                    margin-top: -5px;
+                }
+                .head{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: large;
+                    color: lightskyblue;
+                    text-align: center;
+                }
+                .content{
+                    text-align: center;
+                }
+                .price{
+                    text-align: center;
+                    font-size: larger;
+                    color: cadetblue;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+    .footer{
+        margin-top: 30px;
+        background-color: cadetblue;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        margin-left: -8px;
+        margin-right: -8px;
+        .left{
+            h3{
+                font-size: 30px;
+                font-family: cursive;
+                color: darkslateblue;
+            }
+            p{
+                font-size: 20px;
+                color: azure;
+            }
+        }
+        .right{
+            margin-left: 70px;
+            label{
+                font-size: 20px;
+               color: azure;
+            }
+            h3{
+                font-size: 30px;
+                font-family: cursive;
+                color: darkslateblue;
+            }
+            input{
+            margin-top: 20px;
+           
+            }
+        }
+    }
+    .lower-footer{
+        background-color: darksalmon;
+        margin-left: -8px;
+        margin-right: -8px;
+        ul{ padding-top: 5px;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            li{
+                font-size: 20px;
+                padding-right: 20px;
+                font-family: fantasy;
+            }
+        }
+    }
+    .image-footer{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        img{
+            padding-right: 40px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
